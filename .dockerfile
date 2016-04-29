@@ -5,6 +5,7 @@ ENV PYTHONDONTWRITEBYTECODE 1
 ENV LANG en_US.UTF-8
 ENV PYTHONIOENCODING utf_8
 
+RUN pip install --upgrade pip
 RUN mkdir /usr/src/app
 ADD . /usr/src/app
 
